@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexenGPT - Welcome back </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel= "stylesheet" href= login.css>
+</head>
+<body>
+    <div class="logo">
+        <img src="Nexen icons/NexenGPT logo.svg" alt="NexenGPT Logo">
+    </div>
+    <div class="signup-container">
+        <h1>Welcome back</h1>
+        <form id="signupForm" onsubmit="return handleSubmit(event)">
+            <input type="email" class="form-control" placeholder="Email address" required>
+            <button type="submit" class="continue-btn">Continue</button>
+        </form>
+
+        <p class="login-text">
+            Don't have an account? <a href="signup.html" class="signup-link">Signup</a>
+        </p>
+
+        <div class="social-buttons">
+            <button class="social-btn">
+                <img src="Nexen icons/googleicon.svg" alt="Google icon"> Continue with Google
+            </button>
+            <button class="social-btn">
+                <img src="/Nexen icons/microsofticon.svg" alt="Microsoft icon"> Continue with Microsoft Account
+            </button>
+            <button class="social-btn">
+                <img src="Nexen icons/apple.svg" alt="Apple icon"> Continue with Apple
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            const email = event.target.querySelector('input[type="email"]').value;
+            
+            // Here you would typically make an API call to your backend
+            console.log('Signup attempt:', { email });
+            
+            // For demo purposes, show a success message
+            alert('Signup attempt registered!\nEmail: ' + email);
+            
+            return false;
+        }
+    </script>
+</body>
+</html>
