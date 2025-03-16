@@ -21,9 +21,7 @@ This project serves as the landing page for NexenGPT, providing users with an in
 - **Frontend:** HTML, CSS, JavaScript  
 
 ## 🚀 Future Improvements  
-🔹 Convert the project to **React** for better scalability.  
-🔹 Add **animations** for a more engaging user experience.  
-🔹 Improve **mobile responsiveness** and performance.  
+🔹 Convert the project to **React** for better scalability.     
 
 ## 📥 Installation & Setup  
 1. Clone the repository:  
