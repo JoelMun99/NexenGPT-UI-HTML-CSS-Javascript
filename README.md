@@ -1,8 +1,6 @@
 
 ---
 
-### **3️⃣ NexenGPT Landing Page (HTML, CSS, JavaScript)**
-
 # NexenGPT Landing Page 🌐  
 A simple and clean landing page for NexenGPT, built with HTML, CSS, and JavaScript.
 
